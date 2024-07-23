@@ -9,7 +9,7 @@ import telegram from "../images/telegram.svg";
 const Footer = () => {
   return (
     <>
-      <foote>
+      <footer>
         <div className="bg-[#FBD029] h-5"></div>
         <div className="bg-[#1F1D14]">
           <div className="max-w-[1280px] mx-auto flex justify-between items-center flex-wrap">
@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </foote>
+      </footer>
     </>
   );
 };
