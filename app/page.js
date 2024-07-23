@@ -28,6 +28,11 @@ import truck from "../images/truck.svg";
 import check from "../images/check.svg";
 import checklist from "../images/checklist.svg";
 import percentage from "../images/percentage.svg";
+import Lllll from "../images/lllllll.svg";
+import puma from "../images/puma.svg";
+import reebuk from "../images/reebuk.svg";
+import puma2 from "../images/puma2.svg";
+import nike from "../images/nike.svg";
 
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
@@ -508,7 +513,7 @@ export default function Home() {
             <h1 className="pb-[32px] text-[32px] font-medium">Полезное</h1>
             <div className="flex justify-between flex-wrap gap-8">
               <div className=" bg-[#fff]  rounded-[8px]">
-                <div>
+                <div className="max-w-[608px]">
                   <h1 className="pl-[32px] pr-[120px] pt-[38px] text-[32px] font-medium ">
                     Как правильно выбрать <br />
                     эллиптический тренажер?
@@ -532,11 +537,11 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="max-w-full ">
-                <div className="bg-[#fff] flex items-center justify-center rounded-[8px]w-[608px]">
+              <div>
+                <div className="bg-[#fff] flex items-center justify-center rounded-[8px] w-[608px] ">
                   <Image src={electronic} alt="electronic" />
                 </div>
-                <button className="py-[15px] bg-[#fff] mt-7 rounded-[5px]">
+                <button className="py-[15px] bg-[#fff] mt-7 rounded-[5px] w-[608px]">
                   Посмотрет все
                 </button>
               </div>
@@ -589,6 +594,66 @@ export default function Home() {
                   Узбекистану
                 </p>
               </div>
+            </div>
+          </div>
+          <div className="max-w-[1280px] mx-auto pb-[80px]">
+            <h1 className="pb-[32px] text-[32px] font-medium">О нас</h1>
+            <div className="max-w-[1280px] mx-auto pb-[80px] bg-[#1F1D14] flex justify-between rounded-[8px]">
+              <p className="text-[#fff] pt-[68px] pl-[80px] text-[20px] font-normal opacity-[0.8]">
+                Интернет магазин спортивных товаров 7MARKETSPORT.UZ предлагает
+                <br />
+                широкий ассортимент продукции с доставкой по Ташкенту, области и
+                другим <br />
+                регионам Узбекистана. Ведется работа как с розничными
+                покупателями, так и с <br />
+                оптовыми клиентами. Разнообразие форм оплаты заметно упрощает
+                процесс <br />
+                приобретения товара. Действует гибкая система скидок.
+                Разнообразие форм <br />
+                оплаты заметно упрощает процесс приобретения товара. Действует
+                гибкая <br />
+                система скидок.
+              </p>
+              <Image src={Lllll} alt="lllll" className="pt-64 pr-[44px]" />
+            </div>
+          </div>
+          <div className="max-w-[1280px] mx-auto pb-[80px]">
+            <div className=" flex justify-center items-center gap-6 bg-[#fff] pb-[32px] rounded-[8px] flex-wrap">
+              <Image
+                src={puma}
+                alt="puma"
+                className="pt-[32px] pr-[32px] w-40"
+              />
+              <Image
+                src={puma2}
+                alt="puma2"
+                className="pt-[32px] pr-[32px] w-40"
+              />
+              <Image
+                src={reebuk}
+                alt="reebuk"
+                className="pt-[32px] pr-[32px] w-40"
+              />
+              <Image
+                src={nike}
+                alt="nike"
+                className=" pt-[32px] pr-[32px] w-40]"
+              />
+              <Image
+                src={puma}
+                alt="puma"
+                className=" pt-[32px] pr-[32px] w-40"
+              />
+              <Image
+                src={nike}
+                alt="nike"
+                className=" pt-[32px] pr-[32px] w-40"
+              />
+              <Image
+                src={reebuk}
+                alt="reebuk"
+                className=" pt-[32px] pr-[32px] w-40"
+              />
             </div>
           </div>
         </div>
